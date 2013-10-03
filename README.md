@@ -1,10 +1,8 @@
 # StickyBox
-==========
 
 A JQuery plugin for sticking boxes to the screen.
 
 ### Usage
-=====
 ##### Basic
 ```javascript
 $('#some_element').stickybox();
