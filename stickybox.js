@@ -4,7 +4,7 @@
 *   To Use, simply call on whatever box you want to stick to
 *   the window and when the user scrolls passed it, it will
 *   "stick" to the window.
-* Author: DavidBrear (davidbr)
+* Author: DavidBrear (d@vidbrear.com)
 * Date: 1/25/2012                                    
 ************************************************************/
 
@@ -14,7 +14,7 @@
 	//	options:
 	//    stickyClass: class to apply when 'stuck'
 	//    fixedHeaderHeight: the height of any fixed navigation on the page
-	$.fn.sticky_box = function(options)
+	$.fn.stickybox = function(options)
 	{
 		$(this).each(function(idx, el)
 		{

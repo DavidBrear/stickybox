@@ -1,18 +1,23 @@
-sticky_box
+# StickyBox
 ==========
 
 A JQuery plugin for sticking boxes to the screen.
 
-Usage
+### Usage
 =====
--Basic
-$('#some_element').sticky_box();
+##### Basic
+```javascript
+$('#some_element').stickybox();
+```
 
--Options
-$('#some_element').sticky_box({'stickyClass':'something', 'fixedHeaderHeight':'40'});
+###### With Options
+```javascript
+$('#some_element').stickybox({'stickyClass':'something', 'fixedHeaderHeight':'40'});
+```
 
-#stickyClass:
+###Options
+##### stickyClass
   a class to apply to the box once it's in "stuck" mode
-#fixedHeaderHeight
+##### fixedHeaderHeight
   a height (in pixels) of any fixed header on the page. This serves to
   stick the box below the fixed header.
